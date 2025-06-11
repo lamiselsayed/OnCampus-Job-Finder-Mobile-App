@@ -19,3 +19,5 @@
 
 - Java Code: <b>Android Studio App -> app -> src -> main -> java/com/cmp354/project</b>
 - Permissions Required for Application: <b>Android Studio App -> app -> src -> main -> AndroidManifest.xml</b>
+
+Note: Any API keys that may appear in the Git history are expired and no longer valid.
