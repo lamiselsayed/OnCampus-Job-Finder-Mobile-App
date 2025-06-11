@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">On-campus Job Finder</string>
+    <string-array name="jobType">
+        <item>Teaching Assistant</item>
+        <item>Research Assistant</item>
+        <item>IT (CEN-CAS)</item>
+        <item>Library Assistant</item>
+        <item>Event Volunteer</item>
+    </string-array>
+    <string-array name="typeChoices">
+        <item>All Jobs</item>
+        <item>Teaching Assistant</item>
+        <item>Research Assistant</item>
+        <item>IT (CEN-CAS)</item>
+        <item>Library Assistant</item>
+        <item>Event Volunteer</item>
+    </string-array>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingTop="10dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="10dp">
+
+    <CheckBox
+        android:id="@+id/cbTA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:fontFamily="@font/montserrat"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:text="Teaching Assistant"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbRA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:fontFamily="@font/montserrat"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:text="Research Assistant"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbLA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:fontFamily="@font/montserrat"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:text="Library Assistant"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:fontFamily="@font/montserrat"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:text="IT (CEN / CAS)"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbEV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:fontFamily="@font/montserrat"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:text="Event Volunteer"
+        android:textSize="18sp" />
+
+</LinearLayout>

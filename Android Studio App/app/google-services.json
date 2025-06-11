@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754986153561",
+    "project_id": "jobfinder-85b30",
+    "storage_bucket": "jobfinder-85b30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754986153561:android:891255d2cf931243b9e348",
+        "android_client_info": {
+          "package_name": "com.cmp354.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754986153561-e3m3f146i1dpe5mjpes57qsumt38kihd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_wNtKKB_OcG-YpbVS-PvAuY-zeBTLsTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754986153561-e3m3f146i1dpe5mjpes57qsumt38kihd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

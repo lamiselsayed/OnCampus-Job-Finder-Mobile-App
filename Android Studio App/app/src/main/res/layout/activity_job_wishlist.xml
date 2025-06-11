@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingTop="15dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="15dp"
+    tools:context=".JobWishlistActivity">
+
+    <TextView
+        android:id="@+id/tvWTitle"
+        style="@style/LabelTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/tvWType"
+        style="@style/LabelTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type" />
+
+    <TextView
+        android:id="@+id/tvWDuration"
+        style="@style/LabelTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration" />
+
+    <TextView
+        android:id="@+id/tvWSalary"
+        style="@style/LabelTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salary" />
+
+    <TextView
+        android:id="@+id/tvWDesc"
+        style="@style/LabelTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Description" />
+
+</LinearLayout>

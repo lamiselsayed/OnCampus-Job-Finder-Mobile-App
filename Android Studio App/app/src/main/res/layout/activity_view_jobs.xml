@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:pointerIcon="arrow"
+    tools:context=".ViewJobsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:id="@+id/searchJobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:imeOptions="actionDone"
+            android:queryHint="Search job opportunities"
+            android:visibility="visible">
+
+        </SearchView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Spinner
+            android:id="@+id/SpinnerChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ed_minSal"
+            style="@style/LabelTextViewStyle"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Minimum Salary"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/btn_Filter"
+            style="@style/LabelTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:onClick="onFilter"
+            android:text="Filter Jobs"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/jobsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
